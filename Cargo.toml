@@ -1,0 +1,13 @@
+[package]
+name = "nemo-speech-sys"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.88"
+description = "Dynamically loaded raw bindings to NVIDIA NeMo-Speech.cpp's ASR C ABI"
+license = "Apache-2.0"
+publish = false
+repository = "https://github.com/kckeiks/nemo-speech-sys"
+authors = ["M. Meier <m.wiresurfer@gmail.com>"]
+
+[dependencies]
+libloading = "0.9"
